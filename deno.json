@@ -1,0 +1,7 @@
+{
+  "name": "@naishe/print-pyramid",
+  "description": "Print a pyramid",
+  "version": "0.4.0",
+  "license": "MIT",
+  "exports": "./index.ts"
+}
