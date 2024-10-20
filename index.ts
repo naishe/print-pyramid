@@ -15,9 +15,10 @@
  * Gives you a pyramid made of asterisks
  * @param height height of the pyramid, default is 10
  * @returns pyramid made of asterisks
- * @example printPyramid()
- * @example printPyramid(5)
- * @example Run as deno script: deno run index.ts 13 pink
+ * @example `printPyramid()`
+ * @example `printPyramid(5)`
+ * @example Run as deno script: `deno run index.ts 13 pink`
+ * @example Run as deno script: `deno "jsr:@naishe/print-pyramid" 3 blue`
  */
 export function printPyramid(height: number = 10): string {
   const pyramidRows = [];
